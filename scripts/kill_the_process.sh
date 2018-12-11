@@ -51,7 +51,4 @@ do
         echo ""
         echo -e "Process \e[36m"$processname"\e[0m (\e[32m"$processid"\e[0m) killed!"
         echo ""
-        echo "________________________________________________________________________________"
-        echo ""
-
 done
