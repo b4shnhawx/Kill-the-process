@@ -30,7 +30,6 @@ do
 
                 for line in $(seq 1 $linesnumber);
                 do
-#                       echo "Numero de linea: " $line
                         user=`ps aux | grep $process | head -n $line | tail -n 1 |tr -s " " | cut -f1 -d" "`
                         pid=`ps aux | grep $process | head -n $line | tail -n 1 | tr -s " " | cut -f2 -d" "`
                         hour=`ps aux | grep $process | head -n $line | tail -n 1 | tr -s " " | cut -f9 -d" "`
