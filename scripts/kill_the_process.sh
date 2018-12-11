@@ -3,6 +3,8 @@
 #Este script pregunta por un proceso en concreto (nombre del proceso) y devuelve el PID de todos los procesos que contengan ls string definidad en su nombre.
 #Luego te da la posibilidad de terminar el proceso por su PID.
 
+clear
+
 while true
 do
         echo ""
