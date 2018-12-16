@@ -2,6 +2,11 @@
 ### Description
 A easy way to search a determined process and kill it!!
 
+First, type the name or identifier of the process yo want to kill. Don't forget you can use wildcards * to represent zero or more characters and ? to represent only one character!
+Also you can view all the processes by pressing enter.
+
+Second, specifiy the PID you want to finish.
+
 ### Example
 ```sh
 bash kill_the_process.sh
